@@ -1,0 +1,9 @@
+//base
+@import './base/normilize';
+@import './base/common';
+
+//components
+@import './app';
+@import './components/forecastDay';
+@import './components/forecastList';
+@import './components/today';

@@ -1,0 +1,58 @@
+.app {
+  width: 100%;
+  min-height: 100vh;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &__container {
+    width: 100%;
+    max-width: 900px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  &__location-access {
+    text-transform: uppercase;
+    text-align: center;
+  }
+
+  &__loader {
+    margin: 0 auto;
+    border-radius: 50%;
+    overflow: hidden;
+  }
+
+  &__button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  &__coord {
+    font-size: 0.8rem;
+    color: gray;
+  }
+
+  &__today {
+    width: 100%;
+  }
+
+  &__forecasts {
+    width: 100%;
+  }
+}
+
+.button {
+  padding: 8px 13px;
+  border-radius: 5px;
+  background-color: #eef4f6;
+  font-weight: 600;
+  transition: 0.3s;
+
+  &:hover {
+    background-color: darken($color: #eef4f6, $amount: 10);
+  }
+}
